@@ -3,7 +3,7 @@ const pwd = process.env.PWD;
 
 // We can add current project paths here
 const projectPaths = [
-  Path.join(pwd, "./wagtail_app/templates/**/*.html"),
+  Path.join(pwd, "./exemple/templates/**/*.html"),
   // add js file paths if you need
 ];
 
@@ -66,4 +66,4 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
   ],
-}
+};
