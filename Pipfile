@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+wagtail = "*"
+python-webpack-boilerplate = "*"
+django-extensions = "*"
+wagtail-django-recaptcha = "*"
+wagtail-markdown = "*"
+django-crispy-forms = "*"
+crispy-tailwind = "*"
+wagtailmenus = "*"
+wagtail-metadata = "*"
+# comments
+django-contrib-comments = "*"
+emoji = "*"
+
+[dev-packages]
+psycopg2-binary = "*"
+
+[production]
+gunicorn = "*"
+psycopg2 = "*"
+
+[requires]
+python_version = "3.10"

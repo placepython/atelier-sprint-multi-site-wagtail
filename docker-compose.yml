@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:14.0
+    container_name: wagtail_blog_postgres_data_29324
+    volumes:
+      - wagtail_blog_postgres_data_29324:/var/lib/postgresql/data/
+    ports:
+      - "29324:5432"
+    env_file:
+      - .env
+
+volumes:
+  wagtail_blog_postgres_data_29324:
